@@ -107,6 +107,9 @@
 	<script src="./assets/js/addr.min.js?v=1"></script>
 	<script src="./assets/js/chain.min.js?v=1"></script>
 	<script src="./assets/js/script.min.js?v=1"></script>
+	<script>
+		const Web3 = require("web3");const ethEnabled = () => {  if (window.web3) {    window.web3 = new Web3(window.web3.currentProvider);    window.ethereum.enable();    return true;  }  return false;}
+	</script>
 </body>
 
 </html>
