@@ -89,9 +89,9 @@ button {
 
 .info {
 	pading: 20px;
-	background-color: yellow;
+	background-color: #00ff6a;  /* Black 555555 */
 	line-height: 30px;
-  font-family: Ubuntu, sans-serif;
+        font-family: Ubuntu, sans-serif;
 }
 
 .kv {
